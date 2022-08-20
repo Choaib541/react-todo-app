@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decorations: none;
+}
+
+span,
+a,
+img,
+div,
+textarea {
+    display: block;
+}
+
+.App {
+    min-height: 100vh;
+}
+
+.text-gray {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.text-del {
+    text-decoration: line-through;
+}
